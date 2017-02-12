@@ -1,0 +1,9 @@
+﻿Group: Misc
+FriendlyName: MyCustomPlugin
+SystemName: MyCustomPlugin
+Version: 1.00
+SupportedVersions: 3.90
+Author: kai
+DisplayOrder: 1
+FileName: Nop.Plugin.Misc.MyCustomPlugin.dll
+Description: a test plugin by kai

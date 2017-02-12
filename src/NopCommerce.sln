@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{E4ACA93B-D3DE-4557-B069-F1DB42925A4B}"
 EndProject
@@ -72,6 +72,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Feed.GoogleShopping", "Plugins\Nop.Plugin.Feed.GoogleShopping\Nop.Plugin.Feed.GoogleShopping.csproj", "{965A02F0-FC84-4AC4-91E4-79EADFC1CA9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Tax.FixedOrByCountryStateZip", "Plugins\Nop.Plugin.Tax.FixedOrByCountryStateZip\Nop.Plugin.Tax.FixedOrByCountryStateZip.csproj", "{493761CB-5190-4283-8C6C-A8CEB5450CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Misc.MyCustomPlugin", "Plugins\Nop.Plugin.Misc.MyCustomPlugin\Nop.Plugin.Misc.MyCustomPlugin.csproj", "{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Misc.TT", "Plugins\Nop.Plugin.Misc.TT\Nop.Plugin.Misc.TT.csproj", "{445E638D-9CD0-432C-837D-C40C54A5C310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -403,6 +407,30 @@ Global
 		{493761CB-5190-4283-8C6C-A8CEB5450CAB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{493761CB-5190-4283-8C6C-A8CEB5450CAB}.Release|x86.ActiveCfg = Release|Any CPU
 		{493761CB-5190-4283-8C6C-A8CEB5450CAB}.Release|x86.Build.0 = Release|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7}.Release|x86.Build.0 = Release|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Debug|x86.Build.0 = Debug|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Release|x86.ActiveCfg = Release|Any CPU
+		{445E638D-9CD0-432C-837D-C40C54A5C310}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -439,6 +467,8 @@ Global
 		{560768D4-7E1D-4431-99F0-CC14C255E167} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{965A02F0-FC84-4AC4-91E4-79EADFC1CA9D} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{493761CB-5190-4283-8C6C-A8CEB5450CAB} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
+		{D0AA51BE-276F-41EF-B588-F3FB9E76D1C7} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
+		{445E638D-9CD0-432C-837D-C40C54A5C310} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 	EndGlobalSection
 	GlobalSection(NDepend) = preSolution
 		Project = ".\NopCommerce.ndproj"

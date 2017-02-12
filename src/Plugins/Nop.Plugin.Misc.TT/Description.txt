@@ -1,0 +1,9 @@
+﻿Group: Misc
+FriendlyName: TT
+SystemName: Misc.TT
+Version: 1.0
+SupportedVersions: 3.90
+Author: kai
+DisplayOrder: 1
+FileName: Nop.Plugin.Misc.TT.dll
+Description: kai's tt
