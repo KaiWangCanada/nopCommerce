@@ -16,6 +16,7 @@ namespace Nop.Plugin.Misc.TT.Data
             ToTable("TT");
             HasKey(m => m.TTId);
 
+            Property(m => m.ProductId);
             Property(m => m.CustomName);
         }
     }

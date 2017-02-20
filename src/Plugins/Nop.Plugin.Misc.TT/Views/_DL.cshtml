@@ -1,0 +1,13 @@
+﻿@model Nop.Plugin.Misc.TT.Domain.TTRecord
+
+@using System
+@using Nop.Web.Framework.UI
+
+<p>Thanks for download from Kai</p>
+<a class="button-2 download-sample-button" href="@Url.RouteUrl("GetSampleDownload", new { productid = Model.ProductId })">@T("Products.DownloadSample")</a>
+
+<style>
+    #n-e {
+        display: none;
+    }
+</style>

@@ -1,0 +1,58 @@
+﻿@model ProductDetailsModel
+@using Nop.Web.Models.Catalog;
+@using System;
+@using Nop.Web.Framework.UI;
+
+@{ 
+    //For JS
+    //Third parameter value indicating whether to exclude this script from bundling
+    Html.AddScriptParts(Url.Content("~/Plugins/Misc.TT/scripts/bootstrap.js"));
+    //Loading CSS file
+    Html.AddCssFileParts(Url.Content("/Plugins/Misc.TT/styles/{bootstrap.css}"));
+}
+
+@if (Model.HasSampleDownload)
+{
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">kai title</h4>
+                </div>
+                <div class="modal-body">
+                    @Html.Action("NE", "TT")
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" id="n-e"class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            $('#n-e').click(function (e) {
+                var nameTemp = $('#CustomName').val();
+                var productIdTemp = $('.add-to-cart-button').data('productId');
+
+                var data = {
+                    CustomName: nameTemp,
+                    ProductId: productIdTemp
+                }
+
+                $.post("/TT/NE", data, function (data) {
+                    $('.modal-body').html(data);
+                })
+            })
+        })
+
+    </script>
+}

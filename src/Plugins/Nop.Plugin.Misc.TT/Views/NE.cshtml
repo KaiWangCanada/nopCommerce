@@ -1,0 +1,10 @@
+﻿@model Nop.Plugin.Misc.TT.Domain.TTRecord
+
+@using System;
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+
+<div class="form-group">
+    @Html.NopLabelFor(model => model.CustomName)
+    @Html.TextBoxFor(model => model.CustomName)
+</div>
